@@ -1,0 +1,129 @@
+#login {
+    background: linear-gradient(120deg, #4c79d3 44.9%, #ffffff 45%) no-repeat fixed;
+
+}
+
+#app{
+    background: linear-gradient(120deg, #ffffff 44.9%, #4c79d3 45%) no-repeat fixed;
+}
+
+header{
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.color-primary{
+color: #4e0070;
+}
+
+.color-secondary{
+color: #4c79d3;
+}
+
+.icon-detail{
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icon-detail2 {
+    font-size: 25px;
+    margin-left: 5px ;
+}
+
+.text-login {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.coins {
+    position: absolute;
+    bottom: 100px;
+}
+
+.button-login {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: #ffffff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color:  #4e0070;
+    margin: 0 25%;
+    width: 50%;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    border-radius: 15px;
+}
+
+.button-default{
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: #ffffff;
+    }
+
+.button-default2{
+    border-radius: 10px;
+    background-color: gray;
+    color: #ffffff;
+}
+
+.button-float{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 35px;
+    border: 2px solid #4e0070;
+    background-color: #4e0070;
+    color: #ffffff;
+}
+
+.button-float:hover{
+    background-color: #ffffff;
+    border:2px solid #4c79d3;
+    color: #4c79d3
+}
+
+.button-login:hover,    .button-default:hover {
+    background: #4c79d3;
+    color:#ffffff;
+}
+
+.link-defaul{
+    color: #4e0070;
+    cursor: pointer;
+}
+
+.link-defaul:hover {
+    color: #4c79d3;
+}
+
+.info{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.menu{
+    margin-right: 13px;
+}
+.logout{
+    min-width: 5rem !important;
+}
